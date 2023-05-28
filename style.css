@@ -23,3 +23,24 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    background-color: var(--very-dark-blue);
+}
+
+main {
+    width: 400px;
+    height: 400px;
+
+    background-color: var(--dark-blue);
+
+    margin-bottom: 20px;
+}
