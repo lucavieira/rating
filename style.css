@@ -3,6 +3,7 @@
     --white: hsl(0, 0%, 100%);
     --light-grey: hsl(217, 12%, 63%);
     --medium-grey: hsl(216, 12%, 54%);
+    --medium-blue: hsla(212, 18%, 23%);
     --dark-blue: hsl(213, 19%, 18%);
     --very-dark-blue: hsl(216, 12%, 8%);
 }
@@ -43,4 +44,36 @@ main {
     background-color: var(--dark-blue);
 
     margin-bottom: 20px;
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    border-radius: 25px;
+}
+
+main .rating-state, main .state-thank {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .rating-state .star {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+
+    background-color: var(--medium-blue);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .state-thank {
+    display: none;
 }
