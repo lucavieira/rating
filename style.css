@@ -46,7 +46,6 @@ main {
     margin-bottom: 20px;
 
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 
@@ -134,6 +133,43 @@ main .rating-state .btn:hover {
     color: var(--orange);
 }
 
-main .state-thank {
+main .rating-state {
     display: none;
+}
+
+main .state-thank {
+    align-items: center;
+    text-align: center;
+}
+
+main .state-thank .result {
+    width: fit-content;
+
+    padding: 8px 15px;
+
+    font-size: 15px;
+
+    border-radius: 50px;
+
+    background-color: var(--medium-blue);
+    color: var(--orange);
+}
+
+main .state-thank .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .state-thank h2 {
+    color: var(--white);
+
+    font-weight: 400;
+    font-size: 28px;
+}
+
+main .state-thank .text p {
+    font-size: 15px;
+
+    color: var(--light-grey);
 }
