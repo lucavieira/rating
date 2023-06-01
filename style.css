@@ -133,11 +133,8 @@ main .rating-state .btn:hover {
     color: var(--orange);
 }
 
-main .rating-state {
-    display: none;
-}
-
 main .state-thank {
+    display: none;
     align-items: center;
     text-align: center;
 }
@@ -172,4 +169,9 @@ main .state-thank .text p {
     font-size: 15px;
 
     color: var(--light-grey);
+}
+
+main .rating-state .rating-container .selected {
+    background-color: var(--orange);
+    color: var(--white);
 }
