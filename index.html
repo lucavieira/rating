@@ -17,7 +17,7 @@
 <body>
   <main>
     <!-- Rating state start -->
-    <div class="rating-state">
+    <div class="rating-state" id="state-1">
       <div class="star">
         <img src="images/icon-star.svg" alt="Star">
       </div>
@@ -27,18 +27,18 @@
         to help us improve our offering!
       </p>
       <div class="rating-container" id="container-test">
-        <div class="rating" id="rating-1" onclick="selectRating(id)">1</div>
-        <div class="rating" id="rating-2" onclick="selectRating(id)">2</div>
-        <div class="rating" id="rating-3" onclick="selectRating(id)">3</div>
-        <div class="rating" id="rating-4" onclick="selectRating(id)">4</div>
-        <div class="rating" id="rating-5" onclick="selectRating(id)">5</div>
+        <div class="rating" id="1" onclick="selectRating(id)">1</div>
+        <div class="rating" id="2" onclick="selectRating(id)">2</div>
+        <div class="rating" id="3" onclick="selectRating(id)">3</div>
+        <div class="rating" id="4" onclick="selectRating(id)">4</div>
+        <div class="rating" id="5" onclick="selectRating(id)">5</div>
       </div>
-      <button class="btn">Submit</button>
+      <button class="btn" id="submit-button">Submit</button>
     </div>
     <!-- Rating state end -->
   
     <!-- Thank you state start -->
-    <div class="state-thank">
+    <div class="state-thank" id="state-2">
       <div class="image">
         <img src="images/illustration-thank-you.svg" alt="Maquina">
       </div>
@@ -57,7 +57,7 @@
   </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.linkedin.com/in/lucas-vieira-dev/" target="_blank">Lucas Vieira</a>.
   </div>
   <script src="script.js"></script>
 </body>
